@@ -1,8 +1,22 @@
+import java.io.Serializable;
 
-public class socio {
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlRootElement;
 
+@XmlRootElement(name="socio")
+@XmlAccessorType(XmlAccessType.FIELD)
+public class socio implements Serializable{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@XmlAttribute(name="identificador")
 	private int id;
+	@XmlAttribute(name="Nombre")
 	private String nameSocio;
+	@XmlAttribute(name="Fecha")
 	private String fechaAlta;
 	
 	//IMPORTANTE: el constructor por defecto es obligatorio para trabajar con XML
