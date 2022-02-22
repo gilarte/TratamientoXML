@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<club>
+    <socios identificador="1" Nombre="Ana" Fecha="21/02/2021"/>
+    <socios identificador="24" Nombre="Antonio" Fecha="1/12/2021"/>
+    <socios identificador="85" Nombre="Pedro" Fecha="3/02/2022"/>
+</club>
